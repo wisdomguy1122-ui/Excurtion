@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dubai Tourism Services | Luxury Travel & Tours</title>
+    <meta name="description"
+        content="Experience the ultimate luxury travel in the UAE with Dubai Tourism Services. Book exclusive city tours, desert safaris, and water park adventures.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&play=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Setup Overlay for loading transitions -->
+    <div id="loader" class="loader">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav id="navbar" class="navbar">
+        <div class="container nav-content">
+            <a href="#" class="logo">Dubai<span>Tourism</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#tours">Exclusive Tours</a></li>
+                <li><a href="#about">About Un</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="#tours" class="btn btn-outline nav-btn">Book Now</a>
+            <!-- Mobile Menu Toggle -->
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content container reveal fade-up">
+            <span class="subtitle">Experience The Extraordinary</span>
+            <h1 class="title">Discover The Wonders of the UAE</h1>
+            <p class="description">Immerse yourself in unparalleled luxury, thrilling adventures, and unforgettable
+                memories with Dubai Tourism Services.</p>
+            <div class="hero-actions">
+                <a href="#tours" class="btn btn-primary btn-large">
+                    Book Your Tour
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" class="btn-icon">
+                        <path d="M5 12H19" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M12 5L19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <!-- Scroll Indicator -->
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Tours Section -->
+        <section id="tours" class="tours-section section">
+            <div class="container">
+                <div class="section-header reveal fade-up">
+                    <span class="section-subtitle">Our Curated Experiences</span>
+                    <h2 class="section-title">Unforgettable Journeys</h2>
+                </div>
+
+                <div class="tours-grid">
+                    <!-- Dubai City Tour -->
+                    <article class="tour-card reveal fade-up" style="transition-delay: 0.1s;">
+                        <div class="card-img-wrapper">
+                            <img src="images/dubai-city.png"
+                                alt="Dubai City Tour capturing Burj Khalifa and Palm Jumeirah" loading="lazy">
+                            <div class="card-overlay">
+                                <span class="badge">Bestseller</span>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3>Dubai City Tours</h3>
+                            <p>Witness the architectural marvels like the Burj Khalifa, Palm Jumeirah, and modern
+                                skyscrapers.</p>
+                            <a href="#" class="btn btn-text">Explore Details <span>&rarr;</span></a>
+                        </div>
+                    </article>
+
+                    <!-- Abu Dhabi Tour -->
+                    <article class="tour-card reveal fade-up" style="transition-delay: 0.2s;">
+                        <div class="card-img-wrapper">
+                            <img src="images/abu-dhabi.png" alt="Abu Dhabi Tour with Sheikh Zayed Grand Mosque"
+                                loading="lazy">
+                        </div>
+                        <div class="card-content">
+                            <h3>Abu Dhabi Day Trips</h3>
+                            <p>Discover cultural opulence at the Grand Mosque and experience thrills at Ferrari World.
+                            </p>
+                            <a href="#" class="btn btn-text">Explore Details <span>&rarr;</span></a>
+                        </div>
+                    </article>
+
+                    <!-- Desert Safari Tour -->
+                    <article class="tour-card reveal fade-up" style="transition-delay: 0.3s;">
+                        <div class="card-img-wrapper">
+                            <img src="images/desert-safari.png" alt="Desert Safari dune bashing" loading="lazy">
+                        </div>
+                        <div class="card-content">
+                            <h3>Premium Desert Safari</h3>
+                            <p>Embark on an epic adventure with dune bashing, camel rides, and a luxury BBQ dinner under
+                                the stars.</p>
+                            <a href="#" class="btn btn-text">Explore Details <span>&rarr;</span></a>
+                        </div>
+                    </article>
+
+                    <!-- Water Park Tour -->
+                    <article class="tour-card reveal fade-up" style="transition-delay: 0.4s;">
+                        <div class="card-img-wrapper">
+                            <img src="images/water-park.png" alt="Family Water Park adventure with giant slides"
+                                loading="lazy">
+                        </div>
+                        <div class="card-content">
+                            <h3>Water Park Adventures</h3>
+                            <p>Dive into fun at Atlantis Aquaventure and Wild Wadi with our exclusive family-friendly
+                                packages.</p>
+                            <a href="#" class="btn btn-text">Explore Details <span>&rarr;</span></a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section section reveal fade-up">
+            <div class="container cta-container">
+                <div class="cta-content">
+                    <h2>Ready for the trip of a lifetime?</h2>
+                    <p>Let our concierge team craft the perfectly tailored itinerary for your luxurious UAE getaway.</p>
+                </div>
+                <div class="cta-action">
+                    <a href="#contact" class="btn btn-primary btn-large">Contact Our Concierge</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <a href="#" class="logo">Dubai<span>Tourism</span></a>
+                <p>Curating exceptional travel experiences across the UAE since 2010. Your journey to luxury begins
+                    here.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                        </svg>
+                    </a>
+                    <a href="#" aria-label="Instagram">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                        </svg>
+                    </a>
+                    <a href="#" aria-label="Twitter">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z">
+                            </path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#tours">Exclusive Tours</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Popular Tours</h4>
+                <ul>
+                    <li><a href="#">Dubai City Tour</a></li>
+                    <li><a href="#">Abu Dhabi Grand Mosque</a></li>
+                    <li><a href="#">Sunset Desert Safari</a></li>
+                    <li><a href="#">Atlantis Aquaventure</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Newsletter</h4>
+                <p>Subscribe for exclusive luxury travel updates and offers.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+                <div class="contact-details">
+                    <p>Email: booking@dubaitourismservices.com</p>
+                    <p>Phone: +971 4 123 4567</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Dubai Tourism Services. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
